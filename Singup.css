@@ -1,0 +1,62 @@
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(90deg, rgb(231, 209, 5) 0%, rgba(212, 2, 2, 0.185) 50%, rgb(10, 180, 223) 100%);
+
+}
+h1{
+ 
+    text-align: center;
+    font-size: 35px;
+    padding-bottom: 20px;
+}
+.Form-main {
+    /* border: 2px solid white; */
+    width: 100%;
+    max-width: 450px;
+    margin: 5% auto;
+    padding: 100px;
+    border-radius: 6px;
+    margin-top: 10px;
+}
+
+
+
+#fname,
+#Password,
+#email {
+    width: 100%;
+    padding: 8px ;
+    border: none;
+    border-radius: 4px;
+}
+
+#submit {
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px 0;
+    border: none;
+    background-color: aliceblue;
+    border-radius: 20px;
+}
+
+#span1,
+#span2,
+#span3 {
+    color: red;
+}
+
+.h1 {
+    background: linear-gradient(90deg, rgb(42, 6, 150) 53%, rgb(112, 10, 126) 100%);
+    text-align: center;
+    font-size: 90px;
+    margin-top: 20%;
+    color: hotpink;
+}

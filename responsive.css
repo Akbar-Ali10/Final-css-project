@@ -1,0 +1,129 @@
+
+
+@media screen and (max-width:800px) {
+    .header-main {
+        flex-direction: column ;
+        
+    }   
+    nav ul{
+        flex-direction: column;
+        line-height: 40px;
+        
+    }
+}
+@media screen and (max-width: 500px) {
+    .banner-img img{
+        width: 100%;
+    }
+}
+@media screen and (max-width:800px) {
+    .banner-main{
+        flex-direction: column;
+        padding-top: 50px;
+    }
+    .banner-h1 {
+        padding-top: 40px ;
+    }
+}
+@media screen and (max-width:370px){
+    .banner-h1{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:800px) {
+    .sale-main{
+        flex-direction: column;
+        line-height: 40px;
+    }
+    .sale{
+        margin-top: 50px;
+    }
+    .sale-btn button {
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width:800px) {
+    .new-main{
+        flex-direction: column;
+        line-height: 40px;
+    }
+    .new{
+        line-height: 40px;
+    }
+    .new-p{
+        /* padding-left: 200px; */
+    }
+    .new-img{
+        /* padding-right: 30px; */
+    }
+}
+@media screen and (max-width:350px) {
+    .new-p{
+       
+    }
+}
+@media screen and (max-width:800px) {
+    .section-main{
+        flex-direction: column;
+        text-align: center;
+    }
+    .sec-img2-3 {
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:528px){
+    .sec-img1 img{
+        width: 100%;
+    }
+}
+@media screen and (max-width:800px) {
+    .top-main ul{
+        flex-direction: column;
+        /* padding-left: 180px; */
+    }
+    .product-main{
+        flex-direction: column;
+        margin-top: 50px;
+        line-height: 20px;
+    }
+    .product-img-1 button{
+        margin-bottom: 50px;
+    }
+    
+    .bag-main{
+        flex-direction: column;
+        line-height: 20px;
+        text-align: center;
+        /* line-height: 30px; */
+    }
+    .bag-img-1 button{
+        margin-bottom: 50px;
+    }
+}
+@media screen and (max-width:528px) {
+    .top-main ul{
+        /* padding-left: 40px; */
+    }
+}
+@media screen and (max-width:800px) {
+
+}
+@media screen and (max-width:800px) {
+    .footer-main{
+        flex-direction: column;
+        text-align: center;
+        line-height: 40px;
+    }
+    
+}
+@media screen and (max-width:800px) {
+    .bottom-main{
+        flex-direction: column;
+        line-height: 50px;
+    }
+}
+@media screen and (max-width:800px) {
+    #Scroll-to-top{
+        margin: 0 60px;
+    }
+}

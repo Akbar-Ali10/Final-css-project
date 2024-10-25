@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="Login.css ">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="header-main">
+                <div class="header-logo">
+                    <img src="./logo.png" alt="">
+                </div>
+                <nav>
+                    <ul>
+                        <a href="index.html">
+                            <li>Home</li>
+                        </a>
+                        <a href="shop.html">
+                            <li>Shop</li>
+                        </a>
+                        <a href="order.html">
+                            <li>Order</li>
+                        </a>
+                        <a href="contact.html">
+                            <li>Contact</li>
+                        </a>
+                    </ul>
+                </nav>
+                <div class="btn">
+                    <button class="btn1"><a href="Login.html">Login</a></button>
+                    <button class="btn2"> <a href="Singup.html">Sing up</a></button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="Form-main">
+        <h1>Login</h1>
+        <form id="Form">
+            <div class="row"><br>
+                <label id="f-name">First Name</label>
+                <input type="text" id="fname"><br><br>
+                <span id="span1"></span>
+            </div>
+            <div class="row"><br>
+                <label id="f-name">Last Name</label>
+                <input type="text" id="lname"><br><br>
+                <span id="span2"></span>
+            </div>
+            <div class="row"><br>
+                <label id="f-name">Email</label>
+                <input type="email" id="email"><br><br>
+                <span id="span3"></span>
+            </div>
+            <div class="row">
+                <input type="submit" id="submit" value="Submit">
+            </div>
+        </form>
+    </div>
+    <script src="Login.js"></script>
+</body>
+
+</html>
